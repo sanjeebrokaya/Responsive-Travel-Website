@@ -1,0 +1,451 @@
+/* css for mobile view */
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.bg-img {
+  background-image: url(images/hills.jpg);
+  background-size: cover;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.logo_menu {
+  padding-top: 2%;
+}
+
+#top_menu_logo {
+  width: 50%;
+  float: left;
+}
+
+.logoimg img {
+  margin-left: 5px;
+  width: 150px;
+  height: 50px;
+}
+
+#menu-icon {
+  text-align: right;
+  font-size: 30px;
+  margin-right: 5px;
+
+}
+
+#menu-icon i {
+  cursor: pointer;
+}
+
+
+.explorenepal {
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+.exploreworld {
+  font-size: 25px;
+  margin-top: -30px;
+  color: aliceblue;
+  font-weight: normal;
+  text-align: center;
+}
+
+.searchbar {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#searchname {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 10%;
+  font-size: 14px;
+  font-family: inherit;
+  border: 0px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 5px;
+
+}
+
+#searchbtn {
+  padding: 2%;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  background-color: #22b0fc;
+  border: 0px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchbtn:hover {
+  background-color: #1575a8;
+}
+
+.heading1 {
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.firstrowimg {
+  display: inline-block;
+  margin-bottom: 3%;
+
+}
+
+.gallery {
+  box-shadow: 2px 2px 10px black;
+  width: 45%;
+  float: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 40%;
+}
+
+#img1 {
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+
+div.desc {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.secondrowimg {
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.thirdrowimg {
+  display: inline-block;
+  margin-bottom: 8%;
+
+}
+
+.heading2 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+
+}
+
+#dest {
+  width: 22%;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  padding: 2%;
+  font-size: 13px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#icons {
+  color: #22b0fc;
+  cursor: pointer;
+}
+
+
+.row1_destinations {
+  text-align: center;
+
+}
+
+.row2_destinations {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 10%;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 20px 20px 0px 0px;
+  padding: 2%;
+}
+
+.footerleft {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 12px;
+}
+
+.footerlogo {
+  width: 120px;
+  height: 40px;
+}
+
+.footer_para {
+  font-size: 12px;
+}
+
+.social_icons {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.social_icons i {
+  padding: 5%;
+}
+
+.footermiddle {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.contact_bottom {
+  font-size: 20px;
+}
+
+.contact_items {
+  padding-top: 2%;
+  font-size: 12px;
+}
+
+.bottom_container {
+  background-color: #22b0fc;
+  font-size: 12px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+
+/* css for the tablet vi */
+
+@media only screen and (min-width: 768px) {
+
+
+  #menu-icon i {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+
+
+  #top_menu_logo {
+    width: 30%;
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .logoimg img {
+    margin-left: 5px;
+    width: 180px;
+    height: 60px;
+  }
+
+  #menu-icon {
+    width: 70%;
+    text-align: right;
+  }
+
+  .logo_menu {
+    display: flex;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .logoimg {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+  }
+
+  a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+
+
+
+  .explorenepal {
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+
+  .exploreworld {
+    font-size: 40px;
+    margin-top: -30px;
+    color: aliceblue;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .searchbar {
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  #searchname {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 10%;
+    font-size: 16px;
+    font-family: inherit;
+    border: 0px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+
+  }
+
+  #searchbtn {
+    padding: 2%;
+    font-size: 16px;
+    font-family: inherit;
+    color: white;
+    background-color: #22b0fc;
+    border: 0px;
+    margin-left: 0px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .heading1 {
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+  }
+
+
+  div.desc {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+
+  .heading2 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+
+  }
+
+  #dest {
+    width: 22%;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 3%;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+
+  .footer {
+    padding-bottom: 5%;
+    display: inline-block;
+  }
+
+  .footerleft {
+    float: left;
+    margin-left: 5%;
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .footerlogo {
+    width: 160px;
+    height: 60px;
+  }
+
+  .footer_para {
+    font-size: 16px;
+  }
+
+  .social_icons {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  .social_icons i {
+    padding: 5%;
+  }
+
+  .footermiddle {
+    float: left;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .contact_bottom {
+    font-size: 20px;
+  }
+
+  .contact_items {
+    padding-top: 6%;
+    font-size: 16px;
+  }
+
+
+  .bottom_container {
+    background-color: #22b0fc;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+
+
+}
